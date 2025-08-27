@@ -32,21 +32,15 @@ flask_project/
 ## 🛠️ Setup & Running the App
 
 ### 1. Install Flask (if not already installed)
-```bash
+
 pip install flask
 
 ### 2. Run the Flask App
-bash
-Copy
-Edit
+
 python app.py
 
 ### 3. Open in Browser
 Go to:
-
-cpp
-Copy
-Edit
 http://127.0.0.1:5000/
 
 Routes Overview
@@ -59,9 +53,6 @@ Notes
 HTML files are stored inside the templates/ folder.
 
 CSS (if added) should be placed in static/ and linked in your HTML using:
-html
-Copy
-Edit
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 You can improve the app further by adding forms, connecting databases, or deploying it.
 
